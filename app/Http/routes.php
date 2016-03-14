@@ -240,4 +240,12 @@ Route::group(['middleware' => ['web']], function () {
         'uses' => 'ContactController@sendMessage',
         'as'   => 'contact'
     ]);
+
+    Route::get('/view-1', function () {
+        return view('view-more-1');
+    });
+
+    Route::get('/view-2', function () {
+        return view('view-more-2');
+    });
 });

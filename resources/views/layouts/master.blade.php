@@ -16,6 +16,10 @@
     <div class="container">
         @yield('content')
     </div>
+    <br>
+    <br>
+    <br>
+    <hr>
     <footer class="footer">
         <div class="container text-center">
         <p class="pull-left">© 2016 Xophist. All Rights Reserved</p>
