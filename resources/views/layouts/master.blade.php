@@ -13,6 +13,7 @@
 </head>
 <body>
     @include('layouts.partials.navbar')
+    @include('layouts.partials.profile')
     <div class="container">
         @yield('content')
     </div>
@@ -23,11 +24,14 @@
     <footer class="footer">
         <div class="container text-center">
         <p class="pull-left">© 2016 Xophist. All Rights Reserved</p>
+        <p class="pull-right"> xophist@aol.com</p>
+        <!--
         <ul class="pull-right list-inline">
             <li>
                 <a href="https://github.com/xophist/xophist-laravel.git">GitHub Project</a>
             </li>
         </ul>
+        -->
         </div>
     </footer>
 
