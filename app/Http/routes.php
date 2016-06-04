@@ -245,6 +245,61 @@ Route::group(['middleware' => ['web']], function () {
         return view('view-more-1');
     });
 
+
+    Route::get('/view-1-A', function () {
+        return view('BeautifulPlaces/A');
+    });
+
+    Route::get('/view-1-B', function () {
+        return view('BeautifulPlaces/B');
+    });
+
+    Route::get('/view-1-C', function () {
+        return view('BeautifulPlaces/C');
+    });
+
+    Route::get('/view-1-D', function () {
+        return view('BeautifulPlaces/D');
+    });
+
+    Route::get('/view-1-E', function () {
+        return view('BeautifulPlaces/E');
+    });
+
+    Route::get('/view-1-F', function () {
+        return view('BeautifulPlaces/F');
+    });
+
+    Route::get('/view-1-G', function () {
+        return view('BeautifulPlaces/G');
+    });
+
+    Route::get('/view-1-H', function () {
+        return view('BeautifulPlaces/H');
+    });
+
+    Route::get('/view-1-I', function () {
+        return view('BeautifulPlaces/I');
+    });
+
+    Route::get('/view-1-J', function () {
+        return view('BeautifulPlaces/J');
+    });
+
+
+    Route::get('/view-2-K', function () {
+        return view('BeautifulPlaces/K');
+    });
+
+    Route::get('/view-2-L', function () {
+        return view('BeautifulPlaces/L');
+    });
+
+    Route::get('/view-2-M', function () {
+        return view('BeautifulPlaces/M');
+    });
+
+
     Route::get('/view-2', function () {
         return view('view-more-2');
     });
